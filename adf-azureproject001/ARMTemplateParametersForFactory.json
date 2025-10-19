@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-azureproject001"
+		},
+		"Azure_Sql_password": {
+			"value": ""
+		},
+		"datalake_accountKey": {
+			"value": ""
+		},
+		"Azure_Sql_properties_typeProperties_server": {
+			"value": "azureprojectserveransh.database.windows.net"
+		},
+		"Azure_Sql_properties_typeProperties_database": {
+			"value": "azureprojectdbansh"
+		},
+		"Azure_Sql_properties_typeProperties_userName": {
+			"value": "adminsai"
+		},
+		"datalake_properties_typeProperties_url": {
+			"value": "https://storageazureprojectgen2.dfs.core.windows.net/"
+		}
+	}
+}
